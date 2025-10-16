@@ -1,9 +1,7 @@
-# Evaluating multiple models using labeled and unlabeled data
+## Evaluating multiple models using labeled and unlabeled data (NeurIPS 2025)
 
 ![SSME Diagram](./explainer.png)
 ---
-
-**Official Codebase for Evaluating Multiple Models with Labeled and Unlabeled Data, NeurIPS 2025** [Paper]
 
 This repository contains the code for Semi-Supervised model Evaluation (SSME), a framework designed to estimate evaluation metrics (e.g., accuracy, calibration error, AUC, etc.) for predictive models in settings with limited labeled data.
 SSME takes advantage of unlabeled data, multiple models, and continuous probabilistic predictions to deliver more accurate estimates of performance
