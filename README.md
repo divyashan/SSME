@@ -1,11 +1,11 @@
-## Evaluating multiple models using labeled and unlabeled data (NeurIPS 2025)
+#  Semi-Supervised Model Evaluation (SSME)
 
 ![SSME Diagram](./explainer.png)
 ---
 
-This repository contains the code for Semi-Supervised model Evaluation (SSME), a framework designed to estimate evaluation metrics (e.g., accuracy, calibration error, AUC, etc.) for predictive models in settings with limited labeled data.
+This repository contains the code for "Evaluating Multiple Models using Labeled and Unlabeled Data" (NeurIPS 2025). The repository implements working examples of Semi-Supervised model Evaluation (SSME), a new framework designed to estimate evaluation metrics (e.g., accuracy, calibration error, AUC, etc.) for predictive models in settings with limited labeled data.
 SSME takes advantage of unlabeled data, multiple models, and continuous probabilistic predictions to deliver more accurate estimates of performance
-than standard approaches to classifier evaluation. For additional discussion of the framework, do check out the associated [paper](https://arxiv.org/abs/2501.11866).
+than standard approaches to classifier evaluation. For additional details and results, do check out the associated [paper](https://arxiv.org/abs/2501.11866).
 
 ## Reproducing results: CivilComments
 
@@ -25,4 +25,4 @@ SSME accepts three inputs: labeled data, unlabeled data, and a set of classifier
 
 ## Contact
 
-For questions, bug reports, or collaborations, please reach out to Divya Shanmugam at [divyas@cornell.edu](mailto:divyas@cornell.edu) and Shuvom Sadhuka at [ssadhuka@mit.edu](mailto:ssadhuka@mit.edu).
+For questions, bug reports, or collaborations, please reach out to Divya Shanmugam at [divyas@cornell.edu](mailto:divyas@cornell.edu) and Shuvom Sadhuka at [ssadhuka@mit.edu](mailto:ssadhuka@mit.edu). We pronounce SSME as "Sesame", but you're welcome to your favorite pronunciation :) 
