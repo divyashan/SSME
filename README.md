@@ -24,7 +24,7 @@ SSME accepts three inputs: labeled data, unlabeled data, and a set of models. Yo
 3. Modify `DATASET_INFO`, in `utils.py`, to include a new entry for the desired task. Refer to `utils.py` for detailed instructions on what parameters must be specified and the format SSME expects them in. 
 4. Run the following command to estimate model performance using SSME: `python run_ssme.py -d <your_dataset> -nl <n_labeled> -nu <n_unlabeled>`. Results will be saved to the `outputs` folder. 
 
-Our goal is to provide an easily extensible implementation of SSME, for ease of use and research. The provided implementation currently supports subgroup-specific performance estimation and evaluation of multi-class outputs, and supports estimation of accuracy, ECE, AUC, and AUPRC. If there are features that you would find particularly useful 
+Our goal is to provide an easily extensible implementation of SSME, for ease of use and research. The provided implementation currently supports subgroup-specific performance estimation and evaluation of multi-class outputs, and supports estimation of accuracy, ECE, AUC, and AUPRC. If there are additional features that you would find particularly useful, do let us know! 
 
 ## Contact
 
