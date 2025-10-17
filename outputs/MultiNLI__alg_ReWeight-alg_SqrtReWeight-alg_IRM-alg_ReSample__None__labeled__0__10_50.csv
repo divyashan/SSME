@@ -1,0 +1,5 @@
+demographic,model_idx,acc,ece,model,acc_gt,ece_gt,dataset,model_names,subgroups,method,run,n_labeled,n_unlabeled
+global,0,0.8666666666666668,0.07871504873037338,alg_ReWeight,0.8111258406621832,0.07184528559446335,MultiNLI,"alg_ReWeight,alg_SqrtReWeight,alg_IRM,alg_ReSample",,labeled,0,10,50
+global,1,0.85,0.13969402015209198,alg_SqrtReWeight,0.8162021469218831,0.0901511162519455,MultiNLI,"alg_ReWeight,alg_SqrtReWeight,alg_IRM,alg_ReSample",,labeled,0,10,50
+global,2,0.75,0.15693438053131104,alg_IRM,0.6458872219348164,0.061241764575242996,MultiNLI,"alg_ReWeight,alg_SqrtReWeight,alg_IRM,alg_ReSample",,labeled,0,10,50
+global,3,0.7833333333333333,0.12804505228996277,alg_ReSample,0.8166386445938955,0.08017703145742416,MultiNLI,"alg_ReWeight,alg_SqrtReWeight,alg_IRM,alg_ReSample",,labeled,0,10,50
