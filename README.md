@@ -25,6 +25,8 @@ SSME accepts three inputs: labeled data, unlabeled data, and a set of classifier
 4. Run python run_ssme.py -d <your_dataset> -nl <n_labeled> -nu <n_unlabeled>.
 5. Read results from the `outputs` folder.
 
+SSME supports subgroup-specific performance estimation (see the demo_notebook.ipynb for an example), as well as semi-supervised evaluation of multi-class predictions. 
+
 ## Contact
 
 For questions, bug reports, or collaborations, please reach out to Divya Shanmugam at [divyas@cornell.edu](mailto:divyas@cornell.edu) and Shuvom Sadhuka at [ssadhuka@mit.edu](mailto:ssadhuka@mit.edu). We pronounce SSME as "Sesame", but you're welcome to your favorite pronunciation :) 
