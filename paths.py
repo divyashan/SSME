@@ -1,4 +1,3 @@
-MODEL_PATH = './saved_models/'
 PREDICTIONS_PATH = './inputs/'
 RESULTS_PATH = './outputs/'
 

@@ -7,7 +7,7 @@ from paths import create_predictions_path
 import pdb 
 from composition_stats import alr, alr_inv
 
-N_DRAWS = 5
+N_DRAWS = 100
 DATASET_INFO = {'CivilComments': {'n_classes': 2,
                                   
                                   # Directories where each classifier's predictions are stored.
@@ -43,7 +43,8 @@ DATASET_INFO = {'CivilComments': {'n_classes': 2,
                              'threshold': 0.5
                             },
 }
-### Data loading functions ###
+
+##### Data loading functions #####
 
 def get_model_values_df(dataset, model_names):
     n_classes = DATASET_INFO[dataset]['n_classes']
@@ -125,7 +126,7 @@ def add_metadata_columns(dataset, results_df):
         results_df[metadata_col_name] = results_df['metadata'].apply(lambda x: x[i]) 
     return results_df
 
-### Data processing functions ###
+##### Data processing functions #####
 
 def collapse_multiclass_predictions(predictions, n_models, n_classes):
     flattened_preds = [item for sublist in predictions for item in sublist]
@@ -169,7 +170,7 @@ def calculate_bandwidth(data, rule='silverman'):
         return None
     return bandwidth
 
-### Metric estimation functions ###
+##### Metric estimation functions #####
 
 def create_metrics_df(labels: np.ndarray, predictions: np.ndarray, 
                       demographics_list, dataset=None) -> pd.DataFrame:
